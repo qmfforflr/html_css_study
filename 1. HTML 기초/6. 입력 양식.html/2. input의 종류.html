@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action="/join">
+
+        아이디: <input type="text"> <br>
+        이메일: <input type="email"> <br>
+        비밀번호: <input type="password"> <br>
+
+        취미:
+        <input type="checkbox" name="hobby">공부
+        <input type="checkbox" name="hobby">독서
+        <input type="checkbox" name="hobby">게임 <br>
+
+        이메일 수신 여부:
+        <input type="radio" name="email-verify" checked>예
+        <input type="radio" name="email=verify">아니요 <br>
+
+        SMS 수신 여부:
+        <input type="radio" name="SMS-verify" checked>예
+        <input type="radio" name="SMS=verify" disabled>아니요 <br>
+
+        <input type="file"> <br>
+
+        칵테일 알콜 도수:
+        <input type="range" min="0" max="10" step="1" value="3"> <br>
+
+        주문수량:
+        <input type="number" value="100" step="100"> 
+
+        <input type="hidden" name="login-time" value="2021/02/01 14:01:33"> <br>
+
+        <input type="button" value="그냥 버튼"> <br>
+        <button>그냥 버튼</button> <br>
+
+        <input type="submit" value="회원가입"> <br>
+        <input type="reset" value="초기화"> <br>
+
+    </form>
+
+
+
+</body>
+
+</html>
