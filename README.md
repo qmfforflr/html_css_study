@@ -12,3 +12,9 @@
 - 파일 -> 기본 설정 -> 바로가기 키 -> 글꼴 검색 -> 단축키 지정 ex) 컨트롤 +,-
 ## Beautify 단축키 설정법
 - 파일 -> 기본 설정 -> 바로가기 키 -> hooky 검색 -> beautify file 단축키 지정 ex) ctr + alt + L
+
+
+## Reset.css 적용법
+[사이트 링크](https://www.jsdelivr.com/package/npm/reset-css)
+```html 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">```

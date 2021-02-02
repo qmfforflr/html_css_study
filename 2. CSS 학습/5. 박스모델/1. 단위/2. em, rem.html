@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* html태그의 기본 font size는 16px */
+        html {
+            font-size: 10px;
+        }
+        /* html의 font-size는 rem을 위해 지정하고 body의 font-size를 따로 지정 */
+        body {
+            font-size: 16px;
+        }
+        body * {
+            border: 2px solid #000;
+        }
+        /* em은 자신의 font-size x 10px 
+        rem은 자신의 font-size가 아닌 html태그의 font-size에 영향을 받음*/
+        .container {
+            width: 60rem;
+            font-size: 10px;
+        }
+        /* font-size에 적용시 기존 자신의 font-size에 곱하여 값을 정함
+        기존 사이즈인 10의 1.3배인 13 */
+        .parent {
+            width: 50%;
+            font-size: 1.3em;
+        }
+        .child {
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">Container
+        <div class="parent">Parent
+            <div class="child">Child1</div>
+            <div class="child">Child2</div>
+        </div>
+    </div>
+
+</body>
+
+</html>
