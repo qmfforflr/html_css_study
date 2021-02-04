@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background: red;
+            border: 4px dashed orange;
+            border-radius: 10px;
+            font-size: 30px;
+        }
+        .relative {
+            position: relative;
+            left: 70px;
+            top: -50px;
+        }
+        /* relative는 위치가 변경되어도 자신의 본래위치를 보존함 */
+        /* absolute는 적용되면 float처럼 자신의 본래위치가 비어서 다른 박스가 차지함 */
+        .absolute {
+            position: absolute;
+            right: 30px;
+            bottom: 70px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">1</div>
+    <div class="box absolute">2</div>
+    <div class="box">3</div>
+</body>
+</html>
