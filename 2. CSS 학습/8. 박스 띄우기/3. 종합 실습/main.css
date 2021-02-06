@@ -1,0 +1,184 @@
+body {
+    font-size: 16px;
+    font-family: 'Arial';
+    background: gray;
+}
+
+#wrapper {
+    width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    background: orange;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+header>h1 {
+    font-size: 80px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+header>h1>span {
+    font-size: 20px;
+    display: block;
+    line-height: 1.3;
+    padding-bottom: 5px;
+}
+
+header .stit {
+    font-size: 14px;
+    color: #000;
+    background: rgb(179, 178, 178);
+    padding: 5px;
+}
+
+#container {
+    width: 100%;
+    background: white;
+}
+
+#container .side-menu {
+    width: 25%;
+    height: 850px;
+    background: #fff;
+    float: left;
+}
+
+#container .side-menu .wrap .title {
+    background: rgb(211, 5, 5);
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 10px;
+}
+
+#container .side-menu .wrap ul {
+    padding: 15px;
+}
+
+#container .side-menu .wrap ul li a{
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: '맑은 고딕';
+    line-height: 2.5;
+}
+
+
+
+
+.content {
+    width: 50%;
+    height: 850px;
+    background: lightgray;
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.content article {
+    color: #123456;
+}
+
+.content article h2 {
+    width: 95%;
+    background: #123456;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 7px;
+    text-decoration: none;
+}
+
+.content article h2 a {
+    color: white;
+    text-decoration: none;
+}
+
+.content article h3 {
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.content article p {
+    font-size: 14px;
+    line-height: 1.2;
+    text-indent: 3px;
+    padding: 15px 0;
+}
+
+
+
+.side-links {
+    width: 25%;
+    height: 850px;
+    background: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+    /* background: white; */
+    float: left;
+    font-family: '맑은 고딕';
+}
+
+.side-links div span {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+    display: block;
+    /* font-family: '맑은 고딕'; */
+}
+
+.side-links div span.all {
+    font-size: 23px;
+    font-weight: bold;
+    color: gray;
+}
+
+.side-links div span.love {
+    font-size: 23px;
+    font-weight: bold;
+    color: orange;
+}
+
+.side-links ul li{
+    margin-top: 20px;
+}
+
+#container .side-links .links li a {
+    color: #000;
+    font-weight: bold;
+}
+
+.side-links ul span {
+    font-size: 13px;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    line-height: 1.3;
+    display: block;
+}
+
+
+
+
+
+
+
+
+footer {
+    background: #123456;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    clear: both;
+
+}
+
+footer a {
+    text-decoration: underline;
+    color: #fff;
+}
