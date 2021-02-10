@@ -60,16 +60,13 @@ header .stit {
     padding: 15px;
 }
 
-#container .side-menu .wrap ul li a{
+#container .side-menu .wrap ul li a {
     color: #000;
     font-size: 14px;
     font-weight: bold;
     font-family: '맑은 고딕';
     line-height: 2.5;
 }
-
-
-
 
 .content {
     width: 50%;
@@ -111,8 +108,6 @@ header .stit {
     padding: 15px 0;
 }
 
-
-
 .side-links {
     width: 25%;
     height: 850px;
@@ -144,7 +139,7 @@ header .stit {
     color: orange;
 }
 
-.side-links ul li{
+.side-links ul li {
     margin-top: 20px;
 }
 
@@ -161,13 +156,6 @@ header .stit {
     display: block;
 }
 
-
-
-
-
-
-
-
 footer {
     background: #123456;
     font-size: 16px;
@@ -175,7 +163,6 @@ footer {
     text-align: center;
     padding: 20px;
     clear: both;
-
 }
 
 footer a {
